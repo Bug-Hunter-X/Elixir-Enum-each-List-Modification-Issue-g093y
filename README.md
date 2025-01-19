@@ -1,0 +1,1 @@
+This repository demonstrates a common misconception in Elixir when working with list manipulation within `Enum.each`.  The code in `bug.exs` attempts to remove an element from a list during iteration, but fails to modify the original list due to Elixir's immutability.  `bugSolution.exs` shows the correct approach using `Enum.filter` or list comprehension.
